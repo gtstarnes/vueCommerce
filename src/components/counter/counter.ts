@@ -1,15 +1,17 @@
-let count = 0;
+import { ref } from "vue";
+
+const count = ref(0);
 
 function add(){
-    count++
+    count.value++
 }
 function minus(){
-    if (count !== 0) {
-        count--
+    if (count.value !== 0) {
+        count.value--
     }
 }
-function getCount(){
-    return count
+function getCount():number{
+    return count.value
 }
 
 export {add, minus, getCount}
