@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import CartCounter from './components/counter/CartCounter.vue';
+
 </script>
 
 <template>
-  <h1>Hello</h1>
+  <CartCounter />
 </template>
 
 <style scoped>
