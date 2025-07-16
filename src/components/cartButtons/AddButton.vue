@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-    import CartSvg from "../../assets/Cartsvg.vue"
+    import CartSvg from "../../assets/CartSvg.vue"
 </script>
 
 <template>
