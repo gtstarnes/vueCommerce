@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import CartCounter from './components/counter/CartCounter.vue';
-import AddButton from './components/cartButtons/AddButton.vue'
+import ItemControls from './components/item/ItemControls.vue';
 
 </script>
 
 <template>
-  <CartCounter />
-  <AddButton />
+  <ItemControls />
 </template>
 
 <style scoped>
