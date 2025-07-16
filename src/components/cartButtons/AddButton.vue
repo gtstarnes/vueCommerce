@@ -16,11 +16,12 @@
         font-weight: bold;
         cursor: pointer;
         border: none;
-        padding: 0.5em;
+        padding: 0.6em;
         width: 100%;
         border-radius: 4px;
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 1em;
     }
 </style>
