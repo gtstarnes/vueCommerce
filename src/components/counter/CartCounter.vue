@@ -10,4 +10,27 @@
     </div>
 </template>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+    div {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: lightgrey;
+        padding: 0.5em;
+        border-radius: 4px;
+
+        button {
+            color: orangered;
+            background-color: inherit;
+            border: none;
+            cursor: pointer;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
+    
+
+    
+</style>
