@@ -25,6 +25,7 @@
             background-color: inherit;
             border: none;
             cursor: pointer;
+            font-weight: bold;
         }
         span {
             font-weight: bold;
